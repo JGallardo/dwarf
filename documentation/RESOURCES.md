@@ -10,7 +10,7 @@ AngularJS is an open-source JavaScript framework, maintained by Google, that ass
 - [Official Site](http://angularjs.org/)
 - [Official Documentation](http://docs.angularjs.org/api)
 - [Repo on GitHub](https://github.com/angular)
-- [WikiPedia](http://en.wikipedia.org/wiki/AngularJS)
+- [Wikipedia](http://en.wikipedia.org/wiki/AngularJS)
 
 
 Foundation 
@@ -20,7 +20,7 @@ ZURB Foundation is a free collection of tools for creating websites and web appl
 - [Official Site](http://foundation.zurb.com/)
 - [Official Documentation](http://foundation.zurb.com/docs/)
 - [Repo on GitHub](https://github.com/zurb/foundation)
-- [WikiPedia](http://en.wikipedia.org/wiki/Foundation_%28framework%29)
+- [Wikipedia](http://en.wikipedia.org/wiki/Foundation_%28framework%29)
 
 - [Templates](http://foundation.zurb.com/templates.php)
 
@@ -30,7 +30,7 @@ Google Analytics
 Google Analytics is a service offered by Google that generates detailed statistics about a website's traffic and traffic sources and measures conversions and sales. The product is aimed at marketers as opposed to webmasters and technologists from which the industry of web analytics originally grew.
 
 - [Official Site](http://www.google.com/analytics/)
-- [WikiPedia](http://en.wikipedia.org/wiki/Google_analytics)
+- [Wikipedia](http://en.wikipedia.org/wiki/Google_analytics)
 
 jQuery
 ------------
@@ -39,7 +39,7 @@ jQuery is a multi-browser (cf. cross-browser) JavaScript library designed to sim
 - [Official Site](http://jquery.com/)
 - [Official Documentation](http://api.jquery.com/)
 - [Repo on GitHub](https://github.com/jquery/jquery)
-- [WikiPedia](http://en.wikipedia.org/wiki/Jquery)
+- [Wikipedia](http://en.wikipedia.org/wiki/Jquery)
 
 Modernizr
 ------------
@@ -48,7 +48,7 @@ Modernizr is a JavaScript library that detects HTML5 and CSS3 features in the us
 - [Official Site](http://modernizr.com/)
 - [Official Documentation](http://modernizr.com/docs/)
 - [Repo on GitHub](https://github.com/Modernizr/Modernizr)
-- [WikiPedia](http://en.wikipedia.org/wiki/Modernizr)
+- [Wikipedia](http://en.wikipedia.org/wiki/Modernizr)
 
 Zepto
 ------------
@@ -67,7 +67,7 @@ robots.txt
 ------------
 The Robot Exclusion Standard, also known as the Robots Exclusion Protocol or robots.txt protocol, is a convention to advising cooperating web crawlers and other web robots about accessing all or part of a website which is otherwise publicly viewable. Robots are often used by search engines to categorize and archive web sites. The standard is different from, but can be used in conjunction with, Sitemaps, a robot inclusion standard for websites.
 
-- [WikiPedia](http://en.wikipedia.org/wiki/Robots_exclusion_standard)
+- [Wikipedia](http://en.wikipedia.org/wiki/Robots_exclusion_standard)
 
 .gitignore
 ------------
@@ -79,7 +79,7 @@ A gitignore file specifies intentionally untracked files that git should ignore.
 ------------
 A .htaccess (hypertext access) file is a directory-level configuration file supported by several web servers, that allows for decentralized management of web server configuration. They are placed inside the web tree, and are able to override a subset of the server's global configuration for the directory that they are in, and all sub-directories.
 
-- [WikiPedia](http://en.wikipedia.org/wiki/.htaccess)
+- [Wikipedia](http://en.wikipedia.org/wiki/.htaccess)
 
 Sticky Footer
 ------------
