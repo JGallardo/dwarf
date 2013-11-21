@@ -64,98 +64,102 @@ Project Structure - Main - Map
 ============
 ```
 |- site/
-|   |
-|   |- assets/
-|   |   |
-|   |   |- css/
-|   |   |   |
-|   |   |   |- app.css
-|   |   |   |- foundation.css 
-|   |   |   |- foundation.min.css 
-|   |   |   |- normalize.css
-|   |   |   |- test.css
-|   |   |
-|   |   |- fonts/
-|   |   |
-|   |   |- img/
-|   |   |   |
-|   |   |   |- content/
-|   |   |   |- template/
-|   |   |   
-|   |   |- js/
-|   |   |   |
-|   |   |   |- foundation/
-|   |   |   |   |
-|   |   |   |   |- foundation.abide.js
-|   |   |   |   |- foundation.accordian.js
-|   |   |   |   |- foundation.alert.js
-|   |   |   |   |- foundation.clearing.js
-|   |   |   |   |- foundation.dropdown.js
-|   |   |   |   |- foundation.interchange.js
-|   |   |   |   |- foundation.joyride.js
-|   |   |   |   |- foundation.js
-|   |   |   |   |- foundation.magellan.js
-|   |   |   |   |- foundation.offcanvas.js
-|   |   |   |   |- foundation.orbit.js
-|   |   |   |   |- foundation.reveal.js
-|   |   |   |   |- foundation.tab.js
-|   |   |   |   |- foundation.tooltip.js
-|   |   |   |   |- foundation.topbar.js
-|   |   |   |
-|   |   |   |- vendor/
-|   |   |   |   |
-|   |   |   |   |- angular-1.2.1.min.js
-|   |   |   |   |- custom.modernizr.js
-|   |   |   |   |- fastclick.js
-|   |   |   |   |- jquery.autocomplete.js
-|   |   |   |   |- jquery.cookie.js
-|   |   |   |   |- jquery.js
-|   |   |   |   |- placeholder.js
-|   |   |   |
-|   |   |   |- test/
-|   |   |       |
-|   |   |       |- test-angular.js
-|   |   |
-|   |   |- angular-test.js
-|   |   |- foundation.min.js
-|   |   |- google-analytics.js
-|   |   |- modernizr.js
-|   |
-|   |- pages/
-|       |
-|       |- _includes/
-|       |   |
-|       |   |- foundation-angular.html
-|       |   |- foundations-declarations.html
-|       |   
-|       |- _layouts/
-|       |   |
-|       |   |- test/
-|       |   |   |
-|       |   |   |- aside-default.html
-|       |   |
-|       |   |- header.html
-|       |   |- aside.html
-|       |   |- footer.html
-|       |   |- head-styles.html
-|       | 
-|       |- about/
-|       |   |
-|       |   |- index.aspx
-|       | 
-|       |- contact-us/
-|       |   |
-|       |   |- index.aspx
-|       |
-|       |- products/
-|           |
-|           |- index.aspx
-|
-|- index.aspx
-|- humans.txt
-|- robots.txt
-|- Web.config
-|- .gitignore
+   |
+   |- assets/
+   |   |
+   |   |- css/
+   |   |   |
+   |   |   |- app.css
+   |   |   |- foundation.css 
+   |   |   |- foundation.min.css 
+   |   |   |- normalize.css
+   |   |   |- test.css
+   |   |
+   |   |- fonts/
+   |   |
+   |   |- img/
+   |   |   |
+   |   |   |- content/
+   |   |   |- template/
+   |   |   
+   |   |- js/
+   |   |   |
+   |   |   |- foundation/
+   |   |   |   |
+   |   |   |   |- foundation.abide.js
+   |   |   |   |- foundation.accordian.js
+   |   |   |   |- foundation.alert.js
+   |   |   |   |- foundation.clearing.js
+   |   |   |   |- foundation.dropdown.js
+   |   |   |   |- foundation.interchange.js
+   |   |   |   |- foundation.joyride.js
+   |   |   |   |- foundation.js
+   |   |   |   |- foundation.magellan.js
+   |   |   |   |- foundation.offcanvas.js
+   |   |   |   |- foundation.orbit.js
+   |   |   |   |- foundation.reveal.js
+   |   |   |   |- foundation.tab.js
+   |   |   |   |- foundation.tooltip.js
+   |   |   |   |- foundation.topbar.js
+   |   |   |
+   |   |   |- vendor/
+   |   |   |   |
+   |   |   |   |- angular-1.2.1.min.js
+   |   |   |   |- custom.modernizr.js
+   |   |   |   |- fastclick.js
+   |   |   |   |- jquery.autocomplete.js
+   |   |   |   |- jquery.cookie.js
+   |   |   |   |- jquery.js
+   |   |   |   |- placeholder.js
+   |   |   |
+   |   |   |- test/
+   |   |       |
+   |   |       |- test-angular.js
+   |   |
+   |   |- angular-test.js
+   |   |- foundation.min.js
+   |   |- google-analytics.js
+   |   |- modernizr.js
+   |
+   |- pages/
+   |   |
+   |   |- _includes/
+   |   |   |
+   |   |   |- foundation-angular.html
+   |   |   |- foundations-declarations.html
+   |   |   
+   |   |- _layouts/
+   |   |   |
+   |   |   |- test/
+   |   |   |   |
+   |   |   |   |- aside-default.html
+   |   |   |
+   |   |   |- header.html
+   |   |   |- aside.html
+   |   |   |- footer.html
+   |   |   |- head-styles.html
+   |   | 
+   |   |- about/
+   |   |   |
+   |   |   |- index.aspx
+   |   | 
+   |   |- contact-us/
+   |   |   |
+   |   |   |- index.aspx
+   |   |
+   |   |- products/
+   |       |
+   |       |- index.aspx
+   |
+   |- _test/
+   |
+   |- _working/
+   |
+   |- index.aspx
+   |- humans.txt
+   |- robots.txt
+   |- Web.config
+   |- .gitignore
 ```
 
 
