@@ -76,6 +76,8 @@ The Robot Exclusion Standard, also known as the Robots Exclusion Protocol or rob
 A gitignore file specifies intentionally untracked files that git should ignore. 
 
 - [Official Documentation](https://www.kernel.org/pub/software/scm/git/docs/gitignore.html)
+- [Sample .gitignores](https://github.com/github/gitignore)
+- [Tutorial](http://git-scm.com/docs/gitignore)
 
 web.config
 ------------
@@ -88,6 +90,7 @@ Web.config is the main settings and configuration file for an ASP.NET web applic
 			<li><a href="http://msdn.microsoft.com/en-us/library/aa306178.aspx">Web.Config</a></li>
 			<li><a href="http://msdn.microsoft.com/en-us/library/aa306178.aspx">Web.Config Configuration Settings</a></li>
 			<li><a href="http://msdn.microsoft.com/en-us/library/dd465326.aspx">Web.config Transformation Syntax for Web Project Deployment Using Visual Studio</a></li>
+			<li><a href="http://support.microsoft.com/kb/815179">How To Create the Web.config File for an ASP.NET Application</a></li>
 		</ul>
 	</li>
 	<li><a href="http://en.wikipedia.org/wiki/Web.config">Wikipedia</a></li>
@@ -99,6 +102,3 @@ Code technique to force the footer to the bottom of the page regardless of conte
 
 - [Official Site](http://www.cssstickyfooter.com/)
 - [Official Documentation](http://www.cssstickyfooter.com/using-sticky-footer-code.html)
-
-
-

@@ -86,6 +86,7 @@ intermediate
 publish
 .idea
 .graphics
-_test
 _archive
+_test
+_working
 uploads

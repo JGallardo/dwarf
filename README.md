@@ -1,11 +1,10 @@
 Dwarf
 ============
 
-Starter template for sites in asp environments. Contains the basics for starting a basic microsite. 
+Microframework for sites in asp environments. Contains the basics for starting a microsite. Allows you to develop asp projects without being in a Microsoft environment.
 
-Inspired by Rails in folder organization. 
+AngularJS was added for additional functionality. But it is recomended to use [Server-side includes](http://msdn.microsoft.com/en-us/library/ms524876%28v=vs.90%29.aspx) and standard [HTML Links](http://www.w3schools.com/html/html_links.asp) to ensure backwards compatability and functioning in browsers that have JavaScript disabled. 
 
-Left simple enough where a graphic designer with no coding experience would be able to make modifications. 
 
 Instructions
 ============
@@ -16,7 +15,7 @@ Instructions
 - 5. Use the default `foundation.min.css` or modify Foundation per your needs and then minify it for production. 
 
 
-Project Structure - Main - Description
+Project - Description of Contents
 ============
 
 #### README.md
@@ -26,22 +25,13 @@ This file that you are currently reading contains the general information about 
 Contains project notes, tutorials, and other related information. 
 
 #### templates
-Contains code samples
+Contains code samples that you may implement in your projects. They are based on the [Foundation grid](http://foundation.zurb.com/docs/components/grid.html).
 
 #### site
 This is the file that you will be using for your project. 
 
-Project Structure - Main - Map
-============
-```
-|- README.md
-|- documentation
-|- site [see below]
-|- templates
-.gitignore
-```
 
-Site - Structure - Description
+Site - Description of Contents
 ============
 
 #### assets 
@@ -50,6 +40,25 @@ Holds images, css, and javascript that is used globally.
 #### pages
 Add pages all pages here. 
 Has a folder `layouts` which contains footer, header, and sidebar. Add resusable elements here.  
+
+#### index.aspx
+Home page with sample code.
+
+#### humans.txt
+This is where you can mention contributors for attribution. You can also include your contact information so that future maintainers can ask questions. 
+
+#### robots.txt
+Where you set instructions to web robots about where not to scan. 
+
+#### .gitignore
+If you are using Git for [version control](http://git-scm.com/book/en/Getting-Started-About-Version-Control) this is where you declare files that you do not want tracked. 
+
+#### _test
+This will allow you to experiment with new content or pages. Also can hold your place filler content as you build the site. The robots.txt is set to block robots from scanning content in here. This folder is set to be untracked by git. 
+
+#### _working
+This will allow you to experiment locally, and also work on files on the server. Especially useful if you need to store files on the server while working on something. The robots.txt is set to block robots from scanning content in here. This folder is also set to be untracked by git. 
+
 
 Project Structure - Main - Map
 ============
@@ -78,28 +87,30 @@ Project Structure - Main - Map
 |   |   |   |- foundation/
 |   |   |   |   |
 |   |   |   |   |- foundation.abide.js
-|   |   |   |   |- foundation.alerts.js
+|   |   |   |   |- foundation.accordian.js
+|   |   |   |   |- foundation.alert.js
 |   |   |   |   |- foundation.clearing.js
-|   |   |   |   |- foundation.cookie.js
 |   |   |   |   |- foundation.dropdown.js
-|   |   |   |   |- foundation.forms.js
 |   |   |   |   |- foundation.interchange.js
 |   |   |   |   |- foundation.joyride.js
 |   |   |   |   |- foundation.js
 |   |   |   |   |- foundation.magellan.js
+|   |   |   |   |- foundation.offcanvas.js
 |   |   |   |   |- foundation.orbit.js
-|   |   |   |   |- foundation.palceholder.js
 |   |   |   |   |- foundation.reveal.js
-|   |   |   |   |- foundation.section.js
-|   |   |   |   |- foundation.tooltips.js
+|   |   |   |   |- foundation.tab.js
+|   |   |   |   |- foundation.tooltip.js
 |   |   |   |   |- foundation.topbar.js
 |   |   |   |
 |   |   |   |- vendor/
 |   |   |   |   |
 |   |   |   |   |- angular-1.2.1.min.js
 |   |   |   |   |- custom.modernizr.js
+|   |   |   |   |- fastclick.js
+|   |   |   |   |- jquery.autocomplete.js
+|   |   |   |   |- jquery.cookie.js
 |   |   |   |   |- jquery.js
-|   |   |   |   |- zepto.js
+|   |   |   |   |- placeholder.js
 |   |   |   |
 |   |   |   |- test/
 |   |   |       |
@@ -108,6 +119,7 @@ Project Structure - Main - Map
 |   |   |- angular-test.js
 |   |   |- foundation.min.js
 |   |   |- google-analytics.js
+|   |   |- modernizr.js
 |   |
 |   |- pages/
 |       |
@@ -142,12 +154,12 @@ Project Structure - Main - Map
 |- index.aspx
 |- humans.txt
 |- robots.txt
-|- web.config
+|- Web.config
 |- .gitignore
 ```
 
 
 Components
 ============
-- [Foundation](https://github.com/zurb/foundation)
+- [Foundation 5](https://github.com/zurb/foundation)
 - [AngularJS](https://github.com/angular)
