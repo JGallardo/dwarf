@@ -12,7 +12,7 @@ html, body { height: 100%; }
 } 
 /*Opera Fix - thanks to Maleika (Kohoutec)*/
 body:before { content:""; height:100%; float:left; width:0; margin-top:-32767px;/* thank you Erik J - negate effect of float*/ }
-/* end of sticky footer solution. overwritten in test.css */
+/* end of sticky footer solution. */
 
 #wrap { 
 	width: 100%; 
@@ -31,10 +31,6 @@ body:before { content:""; height:100%; float:left; width:0; margin-top:-32767px;
 
 .inner {}
 
-/* makes the embedded videos responsive */
-#video-container { height: 0; width: 100%; padding-bottom: 56.25%; position: relative; }
-#video-container iframe { height: 100%; width: 100%; position: absolute; top: 0; left: 0; }
-
 /* Header 
 ================================================ */
 #header {}
@@ -49,7 +45,10 @@ body:before { content:""; height:100%; float:left; width:0; margin-top:-32767px;
 
 /* Footer 
 ================================================ */
-#footer {}
+#footer {
+	background-color: rgb(210,210,210); /* change color accordingly */
+	width: 100%;
+}
 #footer #copyright {}
 #footer #copyright p {}
 #footer ul {}
@@ -59,11 +58,14 @@ body:before { content:""; height:100%; float:left; width:0; margin-top:-32767px;
 
 /* Home Page 
 ================================================ */
-.homeHero{}
+.homeHero{
+  background-position: top center; 
+  background-repeat: no-repeat; 
+  overflow: hidden;
+}
 
 /* About Page
 ================================================ */
 
 /* Contact Page
 ================================================ */
-

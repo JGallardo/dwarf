@@ -67,6 +67,8 @@ robots.txt
 ------------
 The Robot Exclusion Standard, also known as the Robots Exclusion Protocol or robots.txt protocol, is a convention to advising cooperating web crawlers and other web robots about accessing all or part of a website which is otherwise publicly viewable. Robots are often used by search engines to categorize and archive web sites. The standard is different from, but can be used in conjunction with, Sitemaps, a robot inclusion standard for websites.
 
+- [Official Site](http://www.robotstxt.org/)
+- [Official Documentation](http://www.robotstxt.org/robotstxt.html)
 - [Wikipedia](http://en.wikipedia.org/wiki/Robots_exclusion_standard)
 
 .gitignore
@@ -75,11 +77,21 @@ A gitignore file specifies intentionally untracked files that git should ignore.
 
 - [Official Documentation](https://www.kernel.org/pub/software/scm/git/docs/gitignore.html)
 
-.htaccess
+web.config
 ------------
-A .htaccess (hypertext access) file is a directory-level configuration file supported by several web servers, that allows for decentralized management of web server configuration. They are placed inside the web tree, and are able to override a subset of the server's global configuration for the directory that they are in, and all sub-directories.
+Web.config is the main settings and configuration file for an ASP.NET web application. The file is an XML document that defines configuration information regarding the web application.This file stores the information about how the web application will act. The web.config file contains information that controls module loading, security configuration, session state configuration, and application language and compilation settings. Web.config files can also contain application specific items such as database connection strings.
 
-- [Wikipedia](http://en.wikipedia.org/wiki/.htaccess)
+<ul>
+	<li>
+		Official Documentation
+		<ul>
+			<li><a href="http://msdn.microsoft.com/en-us/library/aa306178.aspx">Web.Config</a></li>
+			<li><a href="http://msdn.microsoft.com/en-us/library/aa306178.aspx">Web.Config Configuration Settings</a></li>
+			<li><a href="http://msdn.microsoft.com/en-us/library/dd465326.aspx">Web.config Transformation Syntax for Web Project Deployment Using Visual Studio</a></li>
+		</ul>
+	</li>
+	<li><a href="http://en.wikipedia.org/wiki/Web.config">Wikipedia</a></li>
+</ul>
 
 Sticky Footer
 ------------
