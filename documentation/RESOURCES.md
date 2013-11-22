@@ -33,7 +33,7 @@ Font Awesome gives you scalable vector icons that can instantly be customized â€
 - [For IE7 Compatible Projects](http://fontawesome.io/3.2.1/get-started/#need-ie7)
 - [IE7 Compatible Examples (3.2.1)](http://fontawesome.io/3.2.1/examples/)
 
-*When updating make sure to do a "Search and Replace" of `/assets/fonts/fontawesome/` to `/assets/fonts/fontawesome/` in the `font-awesome.min.css` file.*
+*When updating make sure to do a "Search and Replace" of `../fonts/` to `/assets/fonts/fontawesome/` in the `font-awesome.min.css` file.*
 
 Google Analytics
 ------------
