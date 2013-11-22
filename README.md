@@ -169,8 +169,16 @@ Project Structure - Main - Map
 
 Components
 ============
-- [Foundation 5](https://github.com/zurb/foundation)
+
 - [AngularJS](https://github.com/angular)
+- [Font Awesome](https://github.com/FortAwesome/Font-Awesome/)
+- [Foundation 5](https://github.com/zurb/foundation)
+- [jQuery](https://github.com/jquery/jquery)
+
+
+License
+============
+The project has an MIT Open Source license. But links to the components are provided for their license information. Attribution has been maintained in the respective files. 
 
 **MIT Open Source License**
 
