@@ -1,9 +1,9 @@
 Dwarf
 ============
 
-Microframework for sites in asp environments. Contains the basics for starting a microsite. Allows you to develop asp projects without being in a Microsoft environment.
+Dwarf is a microframework for rapid prototyping in [asp](http://en.wikipedia.org/wiki/Active_Server_Pages) environments. Contains the packages for starting a responsive web app.
 
-AngularJS was added for additional functionality. But it is recomended to use [Server-side includes](http://msdn.microsoft.com/en-us/library/ms524876%28v=vs.90%29.aspx) and standard [HTML Links](http://www.w3schools.com/html/html_links.asp) to ensure backwards compatability and functioning in browsers that have JavaScript disabled. 
+AngularJS was added to extend HTML. But it is recomended to use [Server-side includes](http://msdn.microsoft.com/en-us/library/ms524876%28v=vs.90%29.aspx) and standard [HTML Links](http://www.w3schools.com/html/html_links.asp) to ensure backwards compatability and functioning in browsers that have JavaScript disabled. 
 
 
 Instructions
@@ -70,12 +70,16 @@ Project Structure - Main - Map
    |   |- css/
    |   |   |
    |   |   |- app.css
+   |   |   |- font-awesome-ie7.min.css 
+   |   |   |- font-awesome.min.css 
    |   |   |- foundation.css 
    |   |   |- foundation.min.css 
    |   |   |- normalize.css
    |   |   |- test.css
    |   |
    |   |- fonts/
+   |   |   |
+   |   |   |- fontawesome/
    |   |
    |   |- img/
    |   |   |
@@ -167,3 +171,18 @@ Components
 ============
 - [Foundation 5](https://github.com/zurb/foundation)
 - [AngularJS](https://github.com/angular)
+
+**MIT Open Source License**
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
+documentation files (the "Software"), to deal in the Software without restriction, including without limitation the
+rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit
+persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the
+Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
+WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

@@ -8,8 +8,8 @@ AngularJS
 AngularJS is an open-source JavaScript framework, maintained by Google, that assists with running single-page applications.
 
 - [Official Site](http://angularjs.org/)
-- [Official Documentation](http://docs.angularjs.org/api)
 - [Repo on GitHub](https://github.com/angular)
+- [Official Documentation](http://docs.angularjs.org/api)
 - [Wikipedia](http://en.wikipedia.org/wiki/AngularJS)
 
 
@@ -18,12 +18,22 @@ Foundation
 ZURB Foundation is a free collection of tools for creating websites and web applications. It contains HTML and CSS-based design templates for typography, forms, buttons, navigation and other interface components, as well as optional JavaScript extensions.
 
 - [Official Site](http://foundation.zurb.com/)
+- [Repo on GitHub](https://github.com/FortAwesome/Font-Awesome)
 - [Official Documentation](http://foundation.zurb.com/docs/)
-- [Repo on GitHub](https://github.com/zurb/foundation)
-- [Wikipedia](http://en.wikipedia.org/wiki/Foundation_%28framework%29)
-
 - [Templates](http://foundation.zurb.com/templates.php)
 
+Font Awesome 
+------------
+Font Awesome gives you scalable vector icons that can instantly be customized — size, color, drop shadow, and anything that can be done with the power of CSS. 
+
+- [Official Site](http://fontawesome.io/)
+- [Repo on GitHub](https://github.com/FortAwesome/Font-Awesome)
+- [Official Documentation](http://fontawesome.io/get-started/)
+- [Icon Cheatsheet (4.0.3)](http://fortawesome.github.io/Font-Awesome/cheatsheet/)
+- [For IE7 Compatible Projects](http://fontawesome.io/3.2.1/get-started/#need-ie7)
+- [IE7 Compatible Examples (3.2.1)](http://fontawesome.io/3.2.1/examples/)
+
+*When updating make sure to do a "Search and Replace" of `/assets/fonts/fontawesome/` to `/assets/fonts/fontawesome/` in the `font-awesome.min.css` file.*
 
 Google Analytics
 ------------
@@ -37,8 +47,8 @@ jQuery
 jQuery is a multi-browser (cf. cross-browser) JavaScript library designed to simplify the client-side scripting of HTML.
 
 - [Official Site](http://jquery.com/)
-- [Official Documentation](http://api.jquery.com/)
 - [Repo on GitHub](https://github.com/jquery/jquery)
+- [Official Documentation](http://api.jquery.com/)
 - [Wikipedia](http://en.wikipedia.org/wiki/Jquery)
 
 Modernizr
@@ -46,16 +56,16 @@ Modernizr
 Modernizr is a JavaScript library that detects HTML5 and CSS3 features in the user’s browser.
 
 - [Official Site](http://modernizr.com/)
-- [Official Documentation](http://modernizr.com/docs/)
 - [Repo on GitHub](https://github.com/Modernizr/Modernizr)
+- [Official Documentation](http://modernizr.com/docs/)
 - [Wikipedia](http://en.wikipedia.org/wiki/Modernizr)
 
-Zepto
+Sticky Footer
 ------------
-Zepto is a minimalist JavaScript library for modern browsers with a largely jQuery-compatible API.
+Code technique to force the footer to the bottom of the page regardless of content.
 
-- [Official Site](http://zeptojs.com/)
-- [Repo on GitHub](https://github.com/madrobby/zepto)
+- [Official Site](http://www.cssstickyfooter.com/)
+- [Official Documentation](http://www.cssstickyfooter.com/using-sticky-footer-code.html)
 
 humans.txt
 ------------
@@ -95,10 +105,3 @@ Web.config is the main settings and configuration file for an ASP.NET web applic
 	</li>
 	<li><a href="http://en.wikipedia.org/wiki/Web.config">Wikipedia</a></li>
 </ul>
-
-Sticky Footer
-------------
-Code technique to force the footer to the bottom of the page regardless of content.
-
-- [Official Site](http://www.cssstickyfooter.com/)
-- [Official Documentation](http://www.cssstickyfooter.com/using-sticky-footer-code.html)
