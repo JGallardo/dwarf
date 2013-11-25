@@ -75,6 +75,7 @@ Project Structure - Main - Map
    |   |   |- foundation.css 
    |   |   |- foundation.min.css 
    |   |   |- normalize.css
+   |   |   |- style.css
    |   |   |- test.css
    |   |
    |   |- fonts/
