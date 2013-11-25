@@ -122,6 +122,7 @@ Project Structure - Main - Map
    |   |       |- test-angular.js
    |   |
    |   |- angular-test.js
+   |   |- app.js
    |   |- foundation.min.js
    |   |- google-analytics.js
    |   |- modernizr.js
