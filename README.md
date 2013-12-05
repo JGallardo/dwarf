@@ -126,6 +126,8 @@ Project Structure - Main - Map
    |   |- google-analytics.js
    |   |- modernizr.js
    |
+   |- mailers/
+   | 
    |- pages/
    |   |
    |   |- _includes/
