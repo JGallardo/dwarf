@@ -5,9 +5,7 @@
 		<!--#include file="/pages/_includes/head-default.html" --> 
 	</head>
 	<body>
-		<div id="wrap">
-			<div id="main">
-
+		<div class="container">
 <!-- Header
 ======================== -->
 				<!--#include file="/pages/_layouts/header.html" --> 			
@@ -19,38 +17,41 @@
 					</div>
 				</div>
 
-				<div class="row">
-					<div class="large-12 columns">
+
+<!-- Page Content
+======================== -->
+      <div id="mainContent" class="block push">
+
+        <div class="row">
+          <div class="large-12 columns">
 						<h2>Welcome to Dwarf</h2>
 						<p>This here is the home page</p>
 						<hr />
-					</div>
-				</div> <!-- end of .row -->
+          </div>
+        </div>
 
-
-				<div class="row">
-<!-- Main Content
-======================== -->
+<!-- ================================================
+	Remove the following row
+	or remove the includes to the test contents
+	or insert test content in the directory listed below.
+================================================ -->	
+        <div class="row">
+<!--/ Section Section /-->        	
 					<div class="large-8 columns">
 					<!--#include file="/pages/_layouts/test/content-home.html" -->
 					</div> 
 
-<!-- Aside
-======================== -->
+<!--/ Aside /-->
 					<div class="large-4 columns">
 						<!--#include file="/pages/_layouts/test/aside.html" --> 
 					</div>
-
-
 				</div> <!-- end of .row -->
 
-			</div> <!-- end of #main -->
-		</div> <!-- end of #wrap -->
-
+      </div> <!-- end of #mainContent -->
 <!-- Footer
 ======================== -->
-		<!--#include file="/pages/_layouts/footer.html" --> 	
-
+      <!--#include file="/pages/_layouts/footer.html" -->   
+    </div>
 <!-- JavaScript Declarations
 ======================== -->
 	<!--#include file="/pages/_includes/js-default.html" --> 

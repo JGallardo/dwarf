@@ -1,26 +1,8 @@
-/* Sticky Footer 
-Sticky Footer Solution by Steve Hatcher, http://stever.ca, http://www.cssstickyfooter.com
-================================================ */
-* { margin:0; padding:0; } 
+/* ------------------ Rules added for sticky footer ------------------ */
 html, body { height: 100%; }
-#wrap { min-height: 100%; }
-#main { overflow:auto; padding-bottom: 180px;}  /* must be same height as the footer */
-#footer {position: relative;
-	margin-top: -180px; /* negative value of footer height */
-	height: 180px;
-	clear:both;
-} 
-/*Opera Fix - thanks to Maleika (Kohoutec)*/
-body:before { content:""; height:100%; float:left; width:0; margin-top:-32767px;/* thank you Erik J - negate effect of float*/ }
-/* end of sticky footer solution. overwritten in test.css */
-
-#wrap { 
-	width: 100%; 
-}
-
-#main { 
-	margin: 0 auto; /* forces centering */
-}  
+.container { display: table; height: 100%; width: 100%; margin: 0 auto; }
+.block { display: table-row; height: 1px; }
+.push { height: auto; }
 
 /* 
 * Use this .expandedContainer class in a div if you want to add a full width background.
@@ -41,7 +23,7 @@ body:before { content:""; height:100%; float:left; width:0; margin-top:-32767px;
 
 /* Content 
 ================================================ */
-#content {}
+#mainContent {}
 
 /* Aside 
 ================================================ */
