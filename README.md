@@ -37,6 +37,10 @@ Site - Description of Contents
 #### assets 
 Holds images, css, and javascript that is used globally. 
 
+
+#### mailers
+Add files necessary for forms here. Captcha, form validation, etc. 
+
 #### pages
 Add pages all pages here. 
 Has a folder `layouts` which contains footer, header, and sidebar. Add resusable elements here.  
