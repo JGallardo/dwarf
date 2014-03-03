@@ -2,17 +2,6 @@ Resources
 ============
 Tutorials and related links
 
-
-AngularJS
-------------
-AngularJS is an open-source JavaScript framework, maintained by Google, that assists with running single-page applications.
-
-- [Official Site](http://angularjs.org/)
-- [Repo on GitHub](https://github.com/angular)
-- [Official Documentation](http://docs.angularjs.org/api)
-- [Wikipedia](http://en.wikipedia.org/wiki/AngularJS)
-
-
 Foundation 
 ------------
 ZURB Foundation is a free collection of tools for creating websites and web applications. It contains HTML and CSS-based design templates for typography, forms, buttons, navigation and other interface components, as well as optional JavaScript extensions.

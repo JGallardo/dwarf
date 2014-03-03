@@ -112,18 +112,13 @@ Project Structure - Main - Map
    |   |   |   |- foundation.topbar.js
    |   |   |
    |   |   |- vendor/
-   |   |   |   |
-   |   |   |   |- angular-1.2.1.min.js
-   |   |   |   |- custom.modernizr.js
-   |   |   |   |- fastclick.js
-   |   |   |   |- jquery.autocomplete.js
-   |   |   |   |- jquery.cookie.js
-   |   |   |   |- jquery.js
-   |   |   |   |- placeholder.js
-   |   |   |
-   |   |   |- test/
    |   |       |
-   |   |       |- test-angular.js
+   |   |       |- custom.modernizr.js
+   |   |       |- fastclick.js
+   |   |       |- jquery.autocomplete.js
+   |   |       |- jquery.cookie.js
+   |   |       |- jquery.js
+   |   |       |- placeholder.js
    |   |
    |   |- app.js
    |   |- foundation.min.js
@@ -136,23 +131,13 @@ Project Structure - Main - Map
    |   |
    |   |- _includes/
    |   |   |
-   |   |   |- foundation-angular.html
-   |   |   |- foundations-declarations.html
+   |   |   |- head-default.html
+   |   |   |- js-default.html
    |   |   
    |   |- _layouts/
    |   |   |
-   |   |   |- test/
-   |   |   |   |
-   |   |   |   |- aside-default.html
-   |   |   |
    |   |   |- header.html
-   |   |   |- aside.html
    |   |   |- footer.html
-   |   |   |- head-styles.html
-   |   | 
-   |   |- about/
-   |   |   |
-   |   |   |- index.aspx
    |   | 
    |   |- contact-us/
    |   |   |
@@ -177,7 +162,6 @@ Project Structure - Main - Map
 Components
 ============
 
-- [AngularJS](https://github.com/angular)
 - [Font Awesome](https://github.com/FortAwesome/Font-Awesome/)
 - [Foundation 5](https://github.com/zurb/foundation)
 - [jQuery](https://github.com/jquery/jquery)
