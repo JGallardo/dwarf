@@ -126,9 +126,9 @@ Components
 
 - [Font Awesome](https://github.com/FortAwesome/Font-Awesome/)
 - [jQuery](https://github.com/jquery/jquery)
-- [Mustache](http://mustache.github.io/)
-- [Swipe](http://swipejs.com/)
-- [Skeleton](http://www.getskeleton.com)
+- [Mustache](https://github.com/janl/mustache.js/)
+- [Swipe](https://github.com/bradbirdsall/Swipe)
+- [Skeleton](https://github.com/dhg/skeleton)
 
 
 License
