@@ -1,51 +1,37 @@
+/* Table of Content
+==================================================
+  #Sticky Footer
+  #Layout
+    - Header
+    - Content
+    - Aside
+    - Footer
+  #Forms
+  #typography
+  #Videos
+  #Misc */
+
 /* ------------------ Rules added for sticky footer ------------------ */
 html, body { height: 100%; }
-.container { display: table; height: 100%; width: 100%; margin: 0 auto; }
+.wrapper { display: table; height: 100%; width: 100%; margin: 0 auto; }
 .block { display: table-row; height: 1px; }
 .push { height: auto; }
 
-/* 
-* Use this .expandedContainer class in a div if you want to add a full width background.
-* Give the div an additional class or add an id with a a background image or color to suit your needs. 
-* You can then add a div inside and use the .inner class to contain the contents at a custom width.
-*/
-.expandedContainer {}
+/* ------------------ Layout ------------------ */
+/* Header ====== */
+/* Content ====== */
+/* Aside ====== */
+/* Footer ====== */
 
-.inner {}
+/* ------------------ Forms ------------------ */
 
+/* ------------------ typography ------------------ */
+sup { font-size: 60%; vertical-align:super; }
+/* a { color: } */
+
+/* ------------------ Videos ------------------ */
 /* makes the embedded videos responsive */
 #video-container { height: 0; width: 100%; padding-bottom: 56.25%; position: relative; }
 #video-container iframe { height: 100%; width: 100%; position: absolute; top: 0; left: 0; }
 
-/* Header 
-================================================ */
-#header {}
-
-/* Content 
-================================================ */
-#mainContent {}
-
-/* Aside 
-================================================ */
-#aside {}
-
-/* Footer 
-================================================ */
-#footer {}
-#footer #copyright {}
-#footer #copyright p {}
-#footer ul {}
-#footer ul li {}
-#footer ul li a {}
-
-
-/* Home Page 
-================================================ */
-.homeHero{}
-
-/* About Page
-================================================ */
-
-/* Contact Page
-================================================ */
-
+/* ------------------ Misc ------------------ */

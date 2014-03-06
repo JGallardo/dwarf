@@ -3,16 +3,12 @@ Dwarf
 
 Dwarf is a microframework for rapid prototyping in [asp](http://en.wikipedia.org/wiki/Active_Server_Pages) environments. Contains the packages for starting a responsive web app.
 
-AngularJS was added to extend HTML. But it is recomended to use [Server-side includes](http://msdn.microsoft.com/en-us/library/ms524876%28v=vs.90%29.aspx) and standard [HTML Links](http://www.w3schools.com/html/html_links.asp) to ensure backwards compatability and functioning in browsers that have JavaScript disabled. 
-
 
 Instructions
 ============
 - 1. Copy the contents from the `site` folder
 - 2. Make modifications to the homepage `index.aspx` 
-- 3. Add, remove, modify the template by modifiying the includes. The footer, header, sidebar, etc are in the `_includes` folder and named `footer.html`, `header.html`, etc. Remove the `footer-example.html` from your project when in production. 
-- 4. Add, remove, modify the pages that your project requires from the `pages` folder. By default the project comes with `about/index.aspx`, `contact-us/index.aspx`,`products/index.aspx`, 
-- 5. Use the default `foundation.min.css` or modify Foundation per your needs and then minify it for production. 
+- 3. Add, remove, modify the template by modifiying the includes. The footer, header, sidebar, etc are in the `_includes` folder and named `footer.html`, `header.html`, etc.
 
 
 Project - Description of Contents
@@ -23,9 +19,6 @@ This file that you are currently reading contains the general information about 
 
 #### documentation
 Contains project notes, tutorials, and other related information. 
-
-#### templates
-Contains code samples that you may implement in your projects. They are based on the [Foundation grid](http://foundation.zurb.com/docs/components/grid.html).
 
 #### site
 This is the file that you will be using for your project. 
@@ -74,11 +67,12 @@ Project Structure - Main - Map
    |   |- css/
    |   |   |
    |   |   |- app.css
+   |   |   |- base.css 
    |   |   |- font-awesome-ie7.min.css 
    |   |   |- font-awesome.min.css 
-   |   |   |- foundation.css 
-   |   |   |- foundation.min.css 
+   |   |   |- layout.css 
    |   |   |- normalize.css
+   |   |   |- skeleton.css   
    |   |   |- style.css
    |   |   |- test.css
    |   |
@@ -92,38 +86,13 @@ Project Structure - Main - Map
    |   |   |- template/
    |   |   
    |   |- js/
-   |   |   |
-   |   |   |- foundation/
-   |   |   |   |
-   |   |   |   |- foundation.abide.js
-   |   |   |   |- foundation.accordian.js
-   |   |   |   |- foundation.alert.js
-   |   |   |   |- foundation.clearing.js
-   |   |   |   |- foundation.dropdown.js
-   |   |   |   |- foundation.interchange.js
-   |   |   |   |- foundation.joyride.js
-   |   |   |   |- foundation.js
-   |   |   |   |- foundation.magellan.js
-   |   |   |   |- foundation.offcanvas.js
-   |   |   |   |- foundation.orbit.js
-   |   |   |   |- foundation.reveal.js
-   |   |   |   |- foundation.tab.js
-   |   |   |   |- foundation.tooltip.js
-   |   |   |   |- foundation.topbar.js
-   |   |   |
-   |   |   |- vendor/
-   |   |       |
-   |   |       |- custom.modernizr.js
-   |   |       |- fastclick.js
-   |   |       |- jquery.autocomplete.js
-   |   |       |- jquery.cookie.js
-   |   |       |- jquery.js
-   |   |       |- placeholder.js
-   |   |
-   |   |- app.js
-   |   |- foundation.min.js
-   |   |- google-analytics.js
-   |   |- modernizr.js
+   |       |
+   |       |- app.js
+   |       |- custom.modernizr.js
+   |       |- google-analytics.js
+   |       |- jquery.min.js
+   |       |- mustache.js
+   |       |- swipe.js      
    |
    |- mailers/
    | 
@@ -139,13 +108,6 @@ Project Structure - Main - Map
    |   |   |- header.html
    |   |   |- footer.html
    |   | 
-   |   |- contact-us/
-   |   |   |
-   |   |   |- index.aspx
-   |   |
-   |   |- products/
-   |       |
-   |       |- index.aspx
    |
    |- _test/
    |
@@ -163,8 +125,10 @@ Components
 ============
 
 - [Font Awesome](https://github.com/FortAwesome/Font-Awesome/)
-- [Foundation 5](https://github.com/zurb/foundation)
 - [jQuery](https://github.com/jquery/jquery)
+- [Mustache](http://mustache.github.io/)
+- [Swipe](http://swipejs.com/)
+- [Skeleton](http://www.getskeleton.com)
 
 
 License
